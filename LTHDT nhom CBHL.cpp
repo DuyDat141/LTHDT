@@ -127,6 +127,7 @@ public:
 			}
 			else if (b->full()) {
 				cout << "Tran dau hoa!" << endl;
+				b->display();
 				break;
 			}
 			switchp();
